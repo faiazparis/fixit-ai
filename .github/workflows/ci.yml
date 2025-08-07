@@ -34,7 +34,7 @@ jobs:
     - name: Run tests
       run: |
         python -c "import app; print('✅ App imports successfully')"
-        python -c "from ifixit_repair_guide import IFixitRepairGuide; print('✅ Core module imports successfully')"
+        python -c "from fastapi_ifixit import IFixitRepairGuide; print('✅ Core module imports successfully')"
         python -c "from deepseek_summarizer import DeepSeekSummarizer; print('✅ DeepSeek module imports successfully')"
     
     - name: Test API endpoints
