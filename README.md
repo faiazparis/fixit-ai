@@ -1,4 +1,4 @@
-# 🔧 iFixit Repair Guide API
+# 🔧 Fixit AI Repair Guide
 
 A **FastAPI-based REST API** for searching and retrieving repair guides from iFixit, with optional **AI-powered summaries** using DeepSeek.
 
